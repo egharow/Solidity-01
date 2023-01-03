@@ -1,0 +1,117 @@
+{
+  "contractName": "YourContractName",
+  "abi": [
+    {
+      "inputs": [],
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/YourContractName.sol\":\"YourContractName\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/YourContractName.sol\":{\"keccak256\":\"0xe27d9cb170cd6e93bfafe2b19df9a0a105665d987659156480b147c8f99fc0e1\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://99358a3cb72535c75c5946c0c7e98c2b181bee01c8d3b5bc611b770e52e4a03e\",\"dweb:/ipfs/QmSh5e7LwXGyyszS6QQReFgrQZVno6ch2T2FZHzVxFHCp7\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea26469706673582212207fefe1466b3740ef5510fb323557d9cd0e09a91c65e79d3ee9727b32526097e364736f6c63430008110033",
+  "deployedBytecode": "0x6080604052600080fdfea26469706673582212207fefe1466b3740ef5510fb323557d9cd0e09a91c65e79d3ee9727b32526097e364736f6c63430008110033",
+  "immutableReferences": {},
+  "generatedSources": [],
+  "deployedGeneratedSources": [],
+  "sourceMap": "66:58:1:-:0;;;96:26;;;;;;;;;;66:58;;;;;;",
+  "deployedSourceMap": "66:58:1:-:0;;;;;",
+  "source": "// SPDX-License-Identifier: MIT\npragma solidity >=0.4.22 <0.9.0;\n\ncontract YourContractName {\n  constructor() public {\n  }\n}\n",
+  "sourcePath": "C:\\Tech\\Solidity 01\\contracts\\YourContractName.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/YourContractName.sol",
+    "exportedSymbols": {
+      "YourContractName": [
+        39
+      ]
+    },
+    "id": 40,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 34,
+        "literals": [
+          "solidity",
+          ">=",
+          "0.4",
+          ".22",
+          "<",
+          "0.9",
+          ".0"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "32:32:1"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "canonicalName": "YourContractName",
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "fullyImplemented": true,
+        "id": 39,
+        "linearizedBaseContracts": [
+          39
+        ],
+        "name": "YourContractName",
+        "nameLocation": "75:16:1",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 37,
+              "nodeType": "Block",
+              "src": "117:5:1",
+              "statements": []
+            },
+            "id": 38,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nameLocation": "-1:-1:-1",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 35,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "107:2:1"
+            },
+            "returnParameters": {
+              "id": 36,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "117:0:1"
+            },
+            "scope": 39,
+            "src": "96:26:1",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "public"
+          }
+        ],
+        "scope": 40,
+        "src": "66:58:1",
+        "usedErrors": []
+      }
+    ],
+    "src": "32:93:1"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.8.17+commit.8df45f5f.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.11",
+  "updatedAt": "2023-01-01T16:52:12.593Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {},
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
